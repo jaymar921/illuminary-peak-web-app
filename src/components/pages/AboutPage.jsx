@@ -44,6 +44,43 @@ function AboutPage() {
             </div>
           </div>
         </Section>
+
+        <Section
+          className={`libre-baskerville text-[#263768] bg-[#263768] md:pb-40 py-25`}
+        >
+          <div className="flex place-content-center md:mb-10">
+            <div className="place-items-center md:mx-10 max-w-500 text-justify">
+              <div className="text-center">
+                <h1 className="text-[28px] mb-4 text-[#cdad7d]">
+                  Partners and Investors
+                </h1>
+                <p className="p-2 text-[#cdad7d]">
+                  At Illuminary Peak Inc., we recognize that our journey would
+                  not be possible without the unwavering support of our partners
+                  and investors. Your trust and commitment have transformed a
+                  vision into reality, and for that, we extend our deepest
+                  gratitude. Together, we are not only building a company, but
+                  also shaping a dream into lasting impact. Thank you for
+                  believing in us and for making this milestone achievable.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="flex place-content-center">
+            <div className="md:w-[70%] max-w-200 w-[80%] md:flex gap-8 text-white font-bold">
+              <div className="shadow-xl bg-[rgba(48,20,99,0.3)] hover:bg-[rgba(48,20,99,0.5)] rounded-xl m-auto md:w-1/2 md:my-0 my-4 w-full p-8 text-center">
+                <div className="rounded-xl md:w-42 w-full overflow-hidden m-auto mb-8 bg-cover">
+                  <img className="w-full" src={IMGMartinPhoto} />
+                </div>
+                <h1 className="italic mb-4">1st Singaporean Investor</h1>
+                <p className="text-[#cdad7d] libre-baskerville-bold">
+                  - Martin Poa 投资者 (INVESTOR)
+                </p>
+              </div>
+            </div>
+          </div>
+        </Section>
+
         <Section
           className={`libre-baskerville text-[#263768] bg-[#391973] md:py-40 py-25`}
         >
@@ -96,36 +133,10 @@ function AboutPage() {
                   <img src={IMGJayharronProfile} />
                 </div>
                 <h1 className="italic mb-4">
-                  “Years don't define expertise. but the kill does.“
+                  “Years don't define expertise. but the skill does.“
                 </h1>
                 <p className="text-[#cdad7d] libre-baskerville-bold">
                   Jayharron Mar Abejar <br /> CO-FOUNDER/COO
-                </p>
-              </div>
-            </div>
-          </div>
-        </Section>
-        <Section
-          className={`libre-baskerville text-[#263768] bg-[#263768] md:pb-40 py-25`}
-        >
-          <div className="flex place-content-center md:mb-10">
-            <div className="place-items-center md:mx-10 max-w-500 text-justify">
-              <div className="text-center">
-                <h1 className="text-[28px] mb-4 text-[#cdad7d]">
-                  Partners and Investors
-                </h1>
-              </div>
-            </div>
-          </div>
-          <div className="flex place-content-center">
-            <div className="md:w-[70%] max-w-200 w-[80%] md:flex gap-8 text-white font-bold">
-              <div className="shadow-xl bg-[rgba(48,20,99,0.3)] hover:bg-[rgba(48,20,99,0.5)] rounded-xl m-auto md:w-1/2 md:my-0 my-4 w-full p-8 text-center">
-                <div className="rounded-xl md:w-42 w-full overflow-hidden m-auto mb-8 bg-cover">
-                  <img className="w-full" src={IMGMartinPhoto} />
-                </div>
-                <h1 className="italic mb-4">1st Singaporean Investor</h1>
-                <p className="text-[#cdad7d] libre-baskerville-bold">
-                  - Martin Poa 投资者 (INVESTOR)
                 </p>
               </div>
             </div>
