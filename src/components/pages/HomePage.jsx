@@ -6,9 +6,7 @@ import Button from "../buttons/Button";
 function HomePage() {
   return (
     <>
-      <div className="">
-        <PageHeader />
-
+      <div>
         <div className="lg:p-20 p-10 mb-8">
           <div className="libre-baskerville-bold text-[#cdad7d] font-bold md:text-[70px] sm:text-[45px] text-[38px]">
             <h1>PHILIPPINES</h1>
