@@ -1,0 +1,6 @@
+export const STYLE = {
+  LIGHT_ORANGE: "#F2E4CC",
+  PURPLE_1: "#5329A0",
+  PURPLE_2: "#BB429A",
+  DARK_BLUE: "#263768",
+};

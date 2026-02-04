@@ -6,8 +6,8 @@ import Button from "../buttons/Button";
 function HomePage() {
   return (
     <>
-      <div>
-        <div className="lg:p-20 p-10 mb-8">
+      <div className="flex place-items-center place-content-center h-screen">
+        <div className="lg:p-20 p-10 mb-8 md:w-[90%] mt-20">
           <div className="libre-baskerville-bold text-[#cdad7d] font-bold md:text-[70px] sm:text-[45px] text-[38px]">
             <h1>PHILIPPINES</h1>
             <h1>FUTURE</h1>
@@ -30,9 +30,9 @@ function HomePage() {
         {/*
             BACKGROUND HERE
         */}
-        <div className="absolute top-0 bg-[rgba(6,5,54,0.7)] h-screen w-screen z-[-1]" />
+        <div className="fixed top-0 bg-[rgba(6,5,54,0.7)] w-screen h-screen z-[-1]" />
         <div
-          className={`absolute left-0 top-0 bg-cover bg-center w-screen h-screen z-[-2]`}
+          className={`fixed left-0 top-0 bg-cover bg-center w-screen h-screen z-[-2]`}
           style={{ backgroundImage: `url('${IMGHomepageBG}')` }}
         />
       </div>

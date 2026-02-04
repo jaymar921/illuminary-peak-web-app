@@ -14,7 +14,7 @@ function PageHeader() {
 
   return (
     <>
-      <div className="w-screen h-37.5 flex place-items-center">
+      <div className="fixed w-screen h-30 flex place-items-center z-2 bg-[#0c0336]">
         <div
           className="flex place-items-center md:ml-12 ml-6"
           onClick={() => navigateTo("/")}
@@ -46,13 +46,13 @@ function PageHeader() {
               CONTACT
             </li>
           </ul>
-          <div className="text-right md:hidden bloc">
+          <div className="text-right md:hidden cursor-pointer">
             <i className="fa-solid fa-bars text-4xl" onClick={showNav}></i>
           </div>
         </div>
       </div>
       <div
-        className={`absolute p-4 w-screen bg-[rgba(0,0,0,0.8)] transform transition-all delay-100 duration-500 z-1`}
+        className={`fixed p-4 w-screen bg-[rgba(0,0,0,0.8)] transform transition-all delay-100 duration-500 z-2`}
         style={navStyle}
       >
         <ul className="py-2 text-xl libre-baskerville">
@@ -78,7 +78,7 @@ function PageHeader() {
       </div>
       {navStyle.top === 0 && (
         <div
-          className="absolute top-0 w-screen h-screen z-0"
+          className="fixed top-0 w-screen h-screen z-0"
           onClick={showNav}
         ></div>
       )}
