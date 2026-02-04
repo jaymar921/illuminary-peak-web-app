@@ -6,17 +6,15 @@ import Button from "../buttons/Button";
 function HomePage() {
   return (
     <>
-      <div className="">
-        <PageHeader />
-
+      <div>
         <div className="lg:p-20 p-10 mb-8">
-          <div className="libre-baskerville-bold text-[#cdad7d] font-bold md:text-[70px] sm:text-[45px] text-[30px]">
+          <div className="libre-baskerville-bold text-[#cdad7d] font-bold md:text-[70px] sm:text-[45px] text-[38px]">
             <h1>PHILIPPINES</h1>
             <h1>FUTURE</h1>
           </div>
 
           <div className="mb-8">
-            <p className="md:text-2xl md:w-180">
+            <p className="md:text-2xl md:pt-0 pt-6 text-xl md:w-180">
               We envision our devices becoming essential tools that not only
               inform commuters but also contribute to the overall smart-city
               development of the region.
@@ -32,7 +30,7 @@ function HomePage() {
         {/*
             BACKGROUND HERE
         */}
-        <div className="absolute top-0 bg-[rgba(6,5,54,0.6)] h-screen w-screen z-[-1]" />
+        <div className="absolute top-0 bg-[rgba(6,5,54,0.7)] h-screen w-screen z-[-1]" />
         <div
           className={`absolute left-0 top-0 bg-cover bg-center w-screen h-screen z-[-2]`}
           style={{ backgroundImage: `url('${IMGHomepageBG}')` }}
