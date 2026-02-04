@@ -5,6 +5,7 @@ import {
   IMGHarold,
   IMGHaroldProfile,
   IMGJayharronProfile,
+  IMGMartinPhoto,
 } from "../../assets/images";
 import Button from "../buttons/Button";
 
@@ -67,7 +68,7 @@ function AboutPage() {
             </div>
           </div>
           <div className="flex place-content-center">
-            <div className="md:w-[70%] max-w-200 w-[50%] md:flex gap-8 text-white font-bold">
+            <div className="md:w-[70%] max-w-200 w-[80%] md:flex gap-8 text-white font-bold">
               <div
                 className="shadow-xl bg-[rgba(48,20,99,0.3)] hover:bg-[rgba(48,20,99,0.5)] rounded-xl  md:w-1/2 md:my-0 my-4 w-full p-8 text-center cursor-pointer"
                 onClick={() => {
@@ -75,7 +76,7 @@ function AboutPage() {
                 }}
               >
                 <div className="rounded-xl md:w-42 overflow-hidden m-auto mb-8">
-                  <img src={IMGHaroldProfile} />
+                  <img className="w-full" src={IMGHaroldProfile} />
                 </div>
                 <h1 className="italic mb-4">
                   “Your imagination is the best vision to success.”
@@ -117,13 +118,10 @@ function AboutPage() {
             </div>
           </div>
           <div className="flex place-content-center">
-            <div className="md:w-[70%] max-w-200 w-[50%] md:flex gap-8 text-white font-bold">
+            <div className="md:w-[70%] max-w-200 w-[80%] md:flex gap-8 text-white font-bold">
               <div className="shadow-xl bg-[rgba(48,20,99,0.3)] hover:bg-[rgba(48,20,99,0.5)] rounded-xl m-auto md:w-1/2 md:my-0 my-4 w-full p-8 text-center">
-                <div className="rounded-xl md:w-42 overflow-hidden m-auto mb-8">
-                  <img
-                    className="md:w-42 w-32"
-                    src={`https://ui-avatars.com/api/?name=M+P&background=0D8ABC&color=fff`}
-                  />
+                <div className="rounded-xl md:w-42 w-full overflow-hidden m-auto mb-8 bg-cover">
+                  <img className="w-full" src={IMGMartinPhoto} />
                 </div>
                 <h1 className="italic mb-4">1st Singaporean Investor</h1>
                 <p className="text-[#cdad7d] libre-baskerville-bold">
