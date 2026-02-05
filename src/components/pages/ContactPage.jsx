@@ -1,7 +1,12 @@
 import React from "react";
+import NotFoundPage from "./NotFoundPage";
 
 function ContactPage() {
-  return <div>ContactPage</div>;
+  return (
+    <div>
+      <NotFoundPage />
+    </div>
+  );
 }
 
 export default ContactPage;

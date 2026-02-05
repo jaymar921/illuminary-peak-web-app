@@ -1,7 +1,12 @@
 import React from "react";
+import NotFoundPage from "./NotFoundPage";
 
 function ProjectPage() {
-  return <div>ProjectPage</div>;
+  return (
+    <div>
+      <NotFoundPage />
+    </div>
+  );
 }
 
 export default ProjectPage;
