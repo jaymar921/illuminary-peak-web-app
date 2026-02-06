@@ -4,6 +4,7 @@ import Section from "../section/Section";
 import Button from "../buttons/Button";
 import {
   IMGlogoTransparent,
+  IMGMobileAppLogo,
   IMGMobileAppPhotoProject,
 } from "../../assets/images";
 
@@ -20,8 +21,8 @@ function ProjectPage() {
           <div className="md:w-[50%] w-[70%] pb-6 rounded-2xl bg-[rgba(205,191,167,0.1)] shadow-md">
             <div className="md:flex p-4">
               <div className="flex place-items-center w-auto mr-4 ml-2">
-                <div className="md:block hidden w-12 h-12 m-auto border border-[rgba(205,191,167,0.1)] shadow-sm rounded-md">
-                  <img src={IMGlogoTransparent} />
+                <div className="md:block hidden w-12 h-12 m-auto ">
+                  <img src={IMGMobileAppLogo} />
                 </div>
               </div>
               <div className="text-center w-full">
@@ -29,8 +30,8 @@ function ProjectPage() {
                 <p>Software Service</p>
               </div>
               <div className="flex place-items-center w-auto mr-4 ml-2">
-                <div className="md:hidden block w-12 h-12 m-auto border mt-4 border-[rgba(205,191,167,0.1)] shadow-sm rounded-md">
-                  <img src={IMGlogoTransparent} />
+                <div className="md:hidden block w-12 h-12 m-auto mt-4">
+                  <img src={IMGMobileAppLogo} />
                 </div>
               </div>
             </div>
