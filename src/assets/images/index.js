@@ -5,6 +5,7 @@ import IMGHaroldProfile from "./harold-profile.jpg";
 import IMGJayharronProfile from "./jayharron-profile.jpg";
 import IMGMartinPhoto from "./martin-profile.jpg";
 import IMGMobileAppPhotoProject from "./mobile-app.png";
+import IMGMobileAppLogo from "./mobile-app-logo.png";
 
 export {
   IMGlogoTransparent,
@@ -14,4 +15,5 @@ export {
   IMGJayharronProfile,
   IMGMartinPhoto,
   IMGMobileAppPhotoProject,
+  IMGMobileAppLogo,
 };
