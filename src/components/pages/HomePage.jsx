@@ -22,7 +22,10 @@ function HomePage() {
           </div>
 
           <div className="mb-8">
-            <Button className="md:px-10 px-5 lg:text-lg md:text-md text-xs">
+            <Button
+              onClick={() => (location.href = "/about-us")}
+              className="md:px-10 px-5 lg:text-lg md:text-md text-xs"
+            >
               LEARN MORE
             </Button>
           </div>
