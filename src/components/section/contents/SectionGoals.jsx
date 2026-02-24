@@ -21,9 +21,9 @@ function SectionGoals() {
             data processing, we aim to provide a seamless digital experience
             that stays ahead of modern industrial standards.
           </p>
-          <div className="text-center pt-4">
+          {/* <div className="text-center pt-4">
             <Button className={"text-[12px]"}>GET IN TOUCH</Button>
-          </div>
+          </div> */}
         </div>
         <div className="w-[50%] md:pt-0 pt-10 hidden md:block">
           <img className="" src={IMGHarold} />
